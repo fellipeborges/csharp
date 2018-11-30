@@ -43,7 +43,7 @@ namespace MachineLearningAdultIncomeCensus
                     {
                     }
                 };
-                const string apiKey = "I1G2rEwPN1KTpnHahVEw9fwSdas3Zuat/L/Pk0bmh9ga80wd/+XVFx8SAUQ0FwkDCoasJ6oIFdC6sLRPONDoNw=="; // Replace this with the API key for the web service
+                const string apiKey = ""; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
 
                 client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/09cc7c53e7d94c16b7fb48dc85826ca0/services/aac47617a05b45b492bff2511f7a2570/execute?api-version=2.0&details=false");
