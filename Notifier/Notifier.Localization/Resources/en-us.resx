@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlertForm_DiscardButton" xml:space="preserve">
+    <value>Discard</value>
+  </data>
+  <data name="AlertForm_EndOfWorkDayDescription" xml:space="preserve">
+    <value>end of work day</value>
+  </data>
+  <data name="AlertForm_EndOfWorkDayTitle" xml:space="preserve">
+    <value>End of work day ({0})</value>
+  </data>
+  <data name="AlertForm_ItsNowThe" xml:space="preserve">
+    <value>It's now the</value>
+  </data>
+  <data name="AlertForm_LunchLeavingDescription" xml:space="preserve">
+    <value>lunch time</value>
+  </data>
+  <data name="AlertForm_LunchLeavingTitle" xml:space="preserve">
+    <value>Leaving for lunch ({0})</value>
+  </data>
+  <data name="AlertForm_LunchReturningDescription" xml:space="preserve">
+    <value>backing from lunch</value>
+  </data>
+  <data name="AlertForm_LunchReturningTitle" xml:space="preserve">
+    <value>Backing from lunch ({0})</value>
+  </data>
+  <data name="AlertForm_MinutesList" xml:space="preserve">
+    <value>1 minute,2 minutes,3 minutes,4 minutes,5 minutes,6 minutes,7 minutes,8 minutes,9 minutes,10 minutes</value>
+  </data>
+  <data name="AlertForm_MissingOneMinuteFor" xml:space="preserve">
+    <value>1 minute left for the</value>
+  </data>
+  <data name="AlertForm_MissingXMinutesFor" xml:space="preserve">
+    <value>{0} minutes to</value>
+  </data>
+  <data name="AlertForm_PostponeButton" xml:space="preserve">
+    <value>Remember me again in</value>
+  </data>
+  <data name="AlertForm_YouAreOneMinuteLateFor" xml:space="preserve">
+    <value>You're one minute late for the</value>
+  </data>
+  <data name="AlertForm_YouAreXMinutesLateFor" xml:space="preserve">
+    <value>You're {0} minutes late for the</value>
+  </data>
+  <data name="Config_Browse_Image" xml:space="preserve">
+    <value>Browse image</value>
+  </data>
+  <data name="Config_Browse_Sound" xml:space="preserve">
+    <value>Browse sound</value>
+  </data>
+  <data name="Config_ChangeLanguageMessage" xml:space="preserve">
+    <value>The application must be reinitialized to assume new language configuration.</value>
+  </data>
+  <data name="Config_ComboItem_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="Config_ComboItem_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Config_ComboItem_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Config_Custom" xml:space="preserve">
+    <value>Custom ({0})</value>
+  </data>
+  <data name="Config_Custom_Image" xml:space="preserve">
+    <value>Custom ({0})</value>
+  </data>
+  <data name="Config_Custom_Sound" xml:space="preserve">
+    <value>Custom ({0})</value>
+  </data>
+  <data name="Config_EndOfWorkDay_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Config_EndOfWorkDay_MessageForMissingImage" xml:space="preserve">
+    <value>Select the custom image for the end of work day.</value>
+  </data>
+  <data name="Config_EndOfWorkDay_MessageForMissingSound" xml:space="preserve">
+    <value>Select the custom sound for the end of work day.</value>
+  </data>
+  <data name="Config_EndOfWorkDay_TestAlert" xml:space="preserve">
+    <value>Test alert</value>
+  </data>
+  <data name="Config_EndOfWorkDay_Time" xml:space="preserve">
+    <value>Total working time</value>
+  </data>
+  <data name="Config_EndOfWorkDay_Title" xml:space="preserve">
+    <value>Warn me at the end of work day</value>
+  </data>
+  <data name="Config_EndOfWorkDay_WarnImage" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Config_EndOfWorkDay_WarnMe" xml:space="preserve">
+    <value>Warn me</value>
+  </data>
+  <data name="Config_EndOfWorkDay_WarnMeAfter" xml:space="preserve">
+    <value>minute(s) before</value>
+  </data>
+  <data name="Config_EndOfWorkDay_WarnSound" xml:space="preserve">
+    <value>Sound alert</value>
+  </data>
+  <data name="Config_File_Types_Image" xml:space="preserve">
+    <value>Image files (*.jpg, *.png, *.gif)</value>
+  </data>
+  <data name="Config_File_Types_Sound" xml:space="preserve">
+    <value>Sound files (*.wav)</value>
+  </data>
+  <data name="Config_FormTitle" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Config_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Config_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Config_LunchLeaving_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Config_LunchLeaving_MessageForMissingImage" xml:space="preserve">
+    <value>Select the custom image for the lunch leaving.</value>
+  </data>
+  <data name="Config_LunchLeaving_MessageForMissingSound" xml:space="preserve">
+    <value>Select the custom sound for the lunch leaving.</value>
+  </data>
+  <data name="Config_LunchLeaving_TestAlert" xml:space="preserve">
+    <value>Test alert</value>
+  </data>
+  <data name="Config_LunchLeaving_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Config_LunchLeaving_Title" xml:space="preserve">
+    <value>Warn me at lunch leaving</value>
+  </data>
+  <data name="Config_LunchLeaving_WarnImage" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Config_LunchLeaving_WarnMe" xml:space="preserve">
+    <value>Warn me</value>
+  </data>
+  <data name="Config_LunchLeaving_WarnMeAfter" xml:space="preserve">
+    <value>minute(s) before</value>
+  </data>
+  <data name="Config_LunchLeaving_WarnSound" xml:space="preserve">
+    <value>Sound alert</value>
+  </data>
+  <data name="Config_LunchReturning_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Config_LunchReturning_MessageForMissingImage" xml:space="preserve">
+    <value>Select the custom image for the lunch returning.</value>
+  </data>
+  <data name="Config_LunchReturning_MessageForMissingSound" xml:space="preserve">
+    <value>Select the custom sound for the lunch returning.</value>
+  </data>
+  <data name="Config_LunchReturning_TestAlert" xml:space="preserve">
+    <value>Test alert</value>
+  </data>
+  <data name="Config_LunchReturning_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Config_LunchReturning_Title" xml:space="preserve">
+    <value>Warn me at lunch returning</value>
+  </data>
+  <data name="Config_LunchReturning_WarnImage" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Config_LunchReturning_WarnMe" xml:space="preserve">
+    <value>Warn me</value>
+  </data>
+  <data name="Config_LunchReturning_WarnMeAfter" xml:space="preserve">
+    <value>minute(s) before</value>
+  </data>
+  <data name="Config_LunchReturning_WarnSound" xml:space="preserve">
+    <value>Sound alert</value>
+  </data>
+  <data name="Config_SelectFile_FileSystem" xml:space="preserve">
+    <value>Browse file</value>
+  </data>
+  <data name="Config_SelectFile_GifSearcher" xml:space="preserve">
+    <value>Gif searcher</value>
+  </data>
+  <data name="Config_Select_Color" xml:space="preserve">
+    <value>Pick color</value>
+  </data>
+  <data name="Config_StartWithWindows" xml:space="preserve">
+    <value>Start with Windows</value>
+  </data>
+  <data name="Config_Test_Alert" xml:space="preserve">
+    <value>Test alert</value>
+  </data>
+  <data name="Config_Test_Sound" xml:space="preserve">
+    <value>Test sound</value>
+  </data>
+  <data name="Config_UseAnimation" xml:space="preserve">
+    <value>Use animation to show alerts</value>
+  </data>
+  <data name="Config_View_Image" xml:space="preserve">
+    <value>Preview image</value>
+  </data>
+  <data name="General_AppName" xml:space="preserve">
+    <value>Notifier</value>
+  </data>
+  <data name="General_Attention" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="General_Test" xml:space="preserve">
+    <value>This is english</value>
+  </data>
+  <data name="ImageSearch_FetchMore" xml:space="preserve">
+    <value>Fetch more</value>
+  </data>
+  <data name="ImageSearch_FormTitle" xml:space="preserve">
+    <value>Image searcher</value>
+  </data>
+  <data name="ImageSearch_GetTrending" xml:space="preserve">
+    <value>Trending</value>
+  </data>
+  <data name="ImageSearch_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ImageSearch_Status" xml:space="preserve">
+    <value>{0} image(s) found. Showing from {1} to {2}</value>
+  </data>
+  <data name="SetEntrance_Alert_InformValidTime" xml:space="preserve">
+    <value>Inform a valid time</value>
+  </data>
+  <data name="SetEntrance_Alert_YouShouldLeaveAt" xml:space="preserve">
+    <value>You must leave at {0}</value>
+  </data>
+  <data name="SetEntrance_FormTitle" xml:space="preserve">
+    <value>Entry time</value>
+  </data>
+  <data name="SetEntrance_SetButton" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Tray_ChangeEntranceTime" xml:space="preserve">
+    <value>Modify entry time ({0})</value>
+  </data>
+  <data name="Tray_ClickToInformArrivingTime" xml:space="preserve">
+    <value>Click to inform entry time.</value>
+  </data>
+  <data name="Tray_EventLogger" xml:space="preserve">
+    <value>Event logger</value>
+  </data>
+  <data name="Tray_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Tray_InformEntranceTime" xml:space="preserve">
+    <value>Inform entry time</value>
+  </data>
+  <data name="Tray_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+</root>
